@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="todo.css">
+		<link rel="icon" type="favicon" href="img/logo.png">
+		<title>
+			Att-göra-lista
+		</title>
+		<script>
+		</script>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<h1 class="header">Att-göra-lista</h1>		
+			<div id="inputContainer">
+				<div id="inputFieldContainer">
+					<input id="inputField" autofocus></input>
+				</div>
+				<div id="deleteAllContainer">
+					<a id="deleteAll" class="icon" data-icon="Rensa"></a>
+				</div>
+				<div id="addContainer">
+					<a id="add" class="icon" data-icon="Lägg till"></a>
+				</div>
+			</div>
+
+			<div id="progressBar" class="block">
+				<div id="progress"></div>
+				<div id="progressText"></div>
+			</div>
+				
+			<div id="itemsContainer">
+				<div id="itemsHeader"></div>
+				<div id="itemsFeed"></div>
+				<div id="doneItemsHeader" class="none"></div>
+				<div id="doneItemsFeed"></div>
+			</div>
+			<div id="emptyMessage"></div>
+		</div>
+		<script src="todo.js"></script>
+	</body>
+</html>
